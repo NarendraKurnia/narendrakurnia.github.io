@@ -1,0 +1,1 @@
+<?php /**PATH C:\MAMP\htdocs\cbt_3\resources\views/welcome.blade.php ENDPATH**/ ?>
