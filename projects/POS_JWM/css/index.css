@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-title {
+  text-align: center;
+}
+.card-login {
+    background-color: #f8f9fa; /* Warna latar belakang kartu */
+    border: 1px solid #ddd; /* Garis tepi kartu */
+    border-radius: 10px; /* Membuat sudut kartu membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan bayangan */
+    padding: 20px;
+    max-width: 400px; /* Lebar maksimum kartu */
+    margin: 0 auto; /* Pusatkan kartu */
+}
+.regis {
+  font-size: 1em !important;
+}
+.form {
+  margin-left: 30px;
+}
+.daftar {
+  text-decoration: none;
+}
+.regis-title {
+  text-align: center;
+  font-size: 1em;
+}
+.icheck-primary.syarat {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Jarak antara checkbox dan teks */
+}
+.custom-card {
+    border: 2px solid #ddd; /* Warna border */
+    border-radius: 10px; /* Radius sudut kartu */
+    padding: 20px; /* Spasi dalam kartu */
+    margin-bottom: 20px; /* Jarak antar kartu */
+    transition: transform 0.3s, box-shadow 0.3s; /* Efek hover */
+    text-align: center;
+    gap: 16px;
+    width: 300px;
+    height: 150px;
+    margin-left: 40px;
+    background-color: #fbfbfb;
+    flex-wrap: wrap;
+}
+.custom-card:hover {
+    transform: scale(1.05); /* Efek pembesaran saat hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan saat hover */
+}
+
+/* Style untuk ikon */
+.icon-custom {
+    font-size: 3rem; /* Ukuran ikon */
+    color: #007bff; /* Warna ikon */
+    margin-bottom: 10px; /* Jarak bawah dari ikon */
+    transition: transform 0.3s ease, color 0.3s ease; /* Efek transisi */
+}
+.custom-card.card-2{
+  margin-left: 40px;
+}
+.custom-card.card-3{
+  margin-left: 40px;
+}
+.card-index-link {
+    text-decoration: none; /* Hilangkan garis bawah pada tautan */
+    color: inherit; /* Warna teks mengikuti elemen induk */
+    display: block; /* Membuat tautan mencakup seluruh kartu */
